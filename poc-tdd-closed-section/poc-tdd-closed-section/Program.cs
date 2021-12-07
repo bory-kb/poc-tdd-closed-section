@@ -16,10 +16,10 @@
         {
         }
 
-        public  string ReturnClosedSection()
+        public  string ConvertToString()
         {
-            var ret = $"[{ _lower},{ _upper }]";
-            return (ret);
+            var retVal = $"[{ _lower},{ _upper }]";
+            return (retVal);
         }
 
 
