@@ -7,9 +7,10 @@
         {
         }
 
-        public static string ReturnClosedSection()
+        public static string ReturnClosedSection(int bottomPorint , int endPoint)
         {
-            return ("[3,7]");
+            var ret = $"[{ bottomPorint},{ endPoint }]";
+            return (ret);
         }
 
 

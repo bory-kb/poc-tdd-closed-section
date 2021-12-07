@@ -14,7 +14,7 @@ namespace poc_tdd_closed_setction_test
         [Test]
         public void 下端点が3上端点が7のとき3カンマ7として返す()
         {
-            var ret = ClosedSection.ReturnClosedSection();
+            var ret = ClosedSection.ReturnClosedSection(3,7);
             Assert.AreEqual("[3,7]",ret);
         }
     }
