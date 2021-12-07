@@ -16,9 +16,9 @@
         {
         }
 
-        public static string ReturnClosedSection(int lower, int upper)
+        public  string ReturnClosedSection()
         {
-            var ret = $"[{ lower},{ upper }]";
+            var ret = $"[{ _lower},{ _upper }]";
             return (ret);
         }
 
