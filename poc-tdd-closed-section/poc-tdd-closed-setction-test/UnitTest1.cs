@@ -1,18 +1,21 @@
 using NUnit.Framework;
+using poc_tdd_closed_section;
 
 namespace poc_tdd_closed_setction_test
 {
-    public class closed_setction
+    public class 下端点と上端点を受け取り整数閉区間を返すClosedSectionクラス
     {
         [SetUp]
-        public void Setup()
+        public void 前準備()
         {
+
         }
 
         [Test]
-        public void Test1()
+        public void 下端点が3上端点が7のとき3カンマ7として返す()
         {
-            Assert.Pass();
+            var ret = ClosedSection.ReturnClosedSection();
+            Assert.AreEqual("[3,7]",ret);
         }
     }
 }
